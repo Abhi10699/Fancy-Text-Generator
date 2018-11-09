@@ -17,6 +17,6 @@ app.set('view engine','ejs')
 var routes = require('./routes/routes.js')(app);
 
 
-http.listen(4000,function(){
+http.listen(process.env.PORT || 4000,function(){
     console.log("Server has started.")
 })
