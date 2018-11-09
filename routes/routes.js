@@ -4,7 +4,7 @@ module.exports = function(app){
   })
 
   app.get('/:name',(req,res)=>{
-    console.log(req.params.name.length)
+    console.log(req.params.name)
     if(req.params.name.length > 7){
       res.render('alert');
     }else{
