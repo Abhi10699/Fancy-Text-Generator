@@ -1,0 +1,33 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  height:100vh;
+  background-color:#8E44AD;
+  color:white;
+  text-align: center;
+}
+#header{
+  font-size:60px;
+  transition: all 300ms;
+}
+#link{
+  font-size:30px;
+  transition: all 300ms;
+}
+input[type=text]{
+  width:10%;
+}
+
+
+@media (max-width:700px){
+  #header{
+    font-size:30px;
+  }
+  #link{
+    font-size:20px;
+  }
+}
